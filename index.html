@@ -9,17 +9,17 @@
 <body>
     <header>
         <nav>
-            <a href="#">Home</a>
+            <a href="#" class="active">Home</a>
             <a href="#">About Us</a>
             <a href="#">Contact</a>
         </nav>
         <h1>Cake Shop</h1>
     </header>
     <main>
-        <div>
-            <h3>Wellcome to see the best pastry products</h3>
+        <div id="catalogue_title">
+            <h2>Wellcome to see the best pastry products</h2>
             <nav>
-                <a href="#">Best Sellers</a>
+                <a href="#" class="active">Best Sellers</a>
                 <a href="#">Offers</a>
                 <a href="#">Custom</a>
                 <a href="#">Other Seccion</a>
@@ -27,33 +27,39 @@
         </div>
         <div id="catalogue">
             <section class="product">
-                <img src="/Assets/cheesecake.jpg" alt="cheesecake" title="cheesecake">
-                <div>
+                <div class="product_img_container">
+                    <img src="/Assets/cheesecake.jpg" alt="cheesecake" title="cheesecake">
+                </div>
+                <div class="price_n_buy">
                     <div>
                         <p>Cheesecake</p>
                         <h4>$10 USD</h4>
                     </div>
-                        <a>buy</a>
+                        <a href="/sorry.html">buy</a>
                 </div>
             </section>
             <section class="product">
-                <img src="/Assets/brownie.jpg" alt="brownie" title="brownie">
-                <div>
+                <div class="product_img_container">
+                    <img src="/Assets/brownie.jpg" alt="brownie" title="brownie">
+                </div>
+                <div class="price_n_buy">
                     <div>
                         <p>Brownie</p>
                         <h4>$15 USD</h4>
                     </div>
-                        <a>buy</a>
+                        <a href="/sorry.html">buy</a>
                 </div>
             </section>
             <section class="product">
-                <img src="/Assets/lemonpie.jpg" alt="lemonpie" title="lemonpie">
-                <div>
+                <div class="product_img_container">
+                    <img src="/Assets/lemonpie.jpg" alt="lemonpie" title="lemonpie">
+                </div>
+                <div class="price_n_buy">
                     <div>
                         <p>Lemonpie</p>
                         <h4>$12 USD</h4>
                     </div>
-                        <a>buy</a>
+                        <a href="/sorry.html">buy</a>
                 </div>
             </section>
         </div>
@@ -65,6 +71,7 @@
                 <legend>Suscribe</legend>    
                     <label for="E-mail">E mail:</label>
                     <input type="email" name="E-mail" id="E-mail">
+                    <input type="submit" value="Send">
             </fieldset>
         </form>
         <p>Contact Us: <a href="mailto:cakeshop@gmail.com">cakeshop@gmail.com</a></p>
